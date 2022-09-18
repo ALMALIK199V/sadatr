@@ -1,0 +1,335 @@
+
+.itmsss{
+    width: 100%;
+    background-color: #e8ecef;
+    margin: auto;
+    height: 430px;
+    padding: 0;
+    overflow: hidden;
+   
+    
+}
+.itm-show{
+    padding-bottom: 26px;
+    padding-top: 2px;
+
+}
+
+.bar,.bar2{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 24px;
+    text-align: left;
+}
+.bar2{
+
+
+    height: 50px;
+    position: relative;
+    
+}
+.bar table td,.bar2 table td{
+    background-color: #ffffff;
+    width: 90px;
+    margin: 0;
+    border: 0.5px solid rgb(170, 179, 255);
+    border-bottom: none;
+    border-top: none;
+    padding: 0;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    
+}
+.bar2 table td{
+    background-color: #eceff3;
+    height: 49px;
+    border: 0.5px solid rgb(170, 179, 255);
+    font-size: 14px;
+    text-align: center;
+    line-height: 49px;
+
+}
+.bar table .bar-i-1,.bar2 table .bar-i-1{
+    width: 30px;
+  
+    
+}
+.bar2 table .bar-i-1 input{
+    background-color: #eceff3;
+    
+}
+.bar table .bar-i-01,.bar2 table .bar-i-01{
+    width: 26px;
+    text-align: center;
+    padding-left: 1px;
+    cursor: pointer;
+   border: none;
+   transition: background-color 0.5s;
+ 
+}
+.bar2 .bar-i-01{
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    position: absolute;
+    left: 96%;
+    top: 35%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.fa-bars{
+    width: 15px;
+    font-size: 17px;
+    padding-left: 5px;
+    color: rgb(50, 58, 143);
+    
+}
+.bar table .bar-i-2 ,.bar2 table .bar-i-2{
+    width: 70px;
+}
+.bar table .bar-i-8,.bar2 table .bar-i-8{
+  
+    width: 145px;
+    
+}
+.bar2 table .bar-i-8{
+    font-size: 11px;
+    line-height: 20px;
+    background-color: #ffffff;
+}
+.bar2 table .bar-i-8:active{
+    z-index: 999;
+    width: auto;
+    background-color: #f3eaea;
+    
+
+    
+}
+.bar table .bar-i-3,.bar2 table .bar-i-3{
+    width: 120px;
+}
+.bar table .bar-i-4,.bar2 table .bar-i-4{
+    width: 70px;
+}
+.bar2 .bar-i-02{
+    position: relative;
+}
+.bar2 .bar-i-02 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-content: center;
+    object-position: center;
+    transition: transform ease-in-out 0.8s;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.bar2 .naay img{
+    z-index: 1;
+    transform: scale(1.5);
+    display: block;
+
+    
+
+}
+.bar2 .naay{
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    top: 30%;
+    left: 40%;
+    z-index: 9999;
+}
+.sss{
+    position: absolute;
+    z-index: 9999;
+    display: none;
+    top: 1%;
+    width: 100px;
+    height: 25px;
+    background-color: #041536;
+    color: whitesmoke;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.5s;
+    left: 1%;
+}
+
+
+
+.bar2 td input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 11px;
+}
+
+
+.button-hide{
+    position: absolute;
+    left: 85%;
+    top: 11%;
+    width: 100px;
+    height: 55px;
+    display: none;
+    background-color: #6ebd08;
+    text-align: center;
+
+}
+.button-hide button{
+    display: block;
+    width: 100px;
+    height: 16px;
+    background-color: #113e98;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button-hide button:hover{
+
+    background-color: #396eda;
+
+    color: #ffffff;
+}
+
+
+.edit{
+    position: fixed;
+    top: 12%;
+    left: 35%;
+    width: 250px;
+    height: 390px;
+    background-color: #041536;
+    z-index: 9999999;
+    display: none;
+    text-align: center;
+    
+}
+.pp{
+    position: absolute;
+}
+#i1{
+    background-color: #b3ff00;
+    width: 50px;
+    color: rgb(0, 0, 0);
+}
+.edit input{
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.edit i{
+    color: white;
+}
+
+.edit textarea{
+    margin-left: 20px;
+    margin-top: 5px;
+    text-align: center;
+    outline: none;
+    
+}
+
+.edit textarea::placeholder {
+    color: rgba(139, 58, 214, 0.616);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0px;
+
+}
+
+.edit-button,.delet-itmm,.add-itmm{
+    position: absolute;
+    top: 69%;
+    left: 95%;
+    border: none;
+    outline: none;
+    width: 50px;
+    background-color: #d8dde7;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: none;
+    height: 16px;
+    transition: background-color 0.5s;
+    transition: color 0.3s;
+
+}
+.edit-button{
+    border-bottom: 1px solid rgb(95, 123, 207);
+    padding-bottom: 2px;
+}
+.delet-itmm{
+    top: 36%;
+}
+.add-itmm{
+    top: 9%;
+    padding-top: 1px;
+}
+.delet-itmm:hover{
+    background-color: #3267d1;
+    color: #ffffff;
+}
+.edit-button:hover{
+    background-color: #3267d1;
+    color: #ffffff;
+}
+.add-itmm:hover{
+    background-color: #3267d1;
+    color: #ffffff;
+}
+.btn{
+    position: absolute;
+    top: 9%;
+    left: 85%;
+    background-color: #052b76;
+    display: none;
+    
+}
+.add-mohtara,.add-momez,.add-disg{
+
+    border: none;
+    outline: none;
+    width: 80px;
+    background-color: #d8dde7;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    height: 16px;
+    transition: background-color 0.5s;
+    transition: color 0.3s;
+    display: block;
+    padding-bottom: 2px;
+    text-align: center;
+    
+}
+
+.add-mohtara:hover{
+    background-color: #3267d1;
+    color: #ffffff;
+}
+
+.add-momez:hover{
+    background-color: #3267d1;
+    color: #ffffff;
+}
+
+.add-disg:hover{
+    background-color: #3267d1;
+    color: #ffffff;
+}
+
+
+
